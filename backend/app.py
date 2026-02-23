@@ -293,4 +293,4 @@ if __name__ == '__main__':
     print(f"API Key configured: {bool(HUGGINGFACE_API_KEY)}")
     print("Starting server on http://localhost:5000")
     print("=" * 50)
-    app.run(debug=True, port=5000, host='0.0.0.0')
+    app.run(port=5000, host='0.0.0.0')
